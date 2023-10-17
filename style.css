@@ -1,0 +1,24 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   
+    font-family: sans-serif;
+    background-image: url("simplebgimage.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+@media (max-width: 991px){
+    .sidebar{
+        background-color: rgba(30, 22, 22, 0.218) !important;
+        backdrop-filter: blur(10px);
+    }
+}
